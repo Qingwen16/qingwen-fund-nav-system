@@ -1,0 +1,14 @@
+/**app.wxss**/
+@import "./style/layout.wxss";
+
+.container {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', SimSun, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+page {
+  background-color: #F2f2f2;
+}

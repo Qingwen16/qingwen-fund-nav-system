@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: '/api/v1.0/fund/nav'
+
+spring:
+  profiles:
+    active: dev
+  config:
+    import: optional:file:./config/application-dev.yml
